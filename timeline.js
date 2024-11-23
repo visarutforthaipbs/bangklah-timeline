@@ -27,7 +27,7 @@ const legend = d3
   .scale(scale);
 d3.select(".legend").call(legend);
 
-d3.csv("timeline-bangklah-1.csv", function (error, data) {
+d3.csv("timeline-bangklah.csv", function (error, data) {
   var list = document.getElementsByTagName("ul")[0];
 
   // Get column headers from the CSV file
